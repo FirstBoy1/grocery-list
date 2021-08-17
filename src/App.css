@@ -1,0 +1,38 @@
+.grocery-container {
+  display: flex;
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grocery-list {
+  width: 50%;
+  padding: 20px;
+}
+
+.grocery-list__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grocery-detail {
+  width: 50%;
+  padding: 20px;
+}
+
+.priority-status-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.empty-list-message {
+  text-align: center;
+}
